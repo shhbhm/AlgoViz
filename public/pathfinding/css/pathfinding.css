@@ -1,0 +1,73 @@
+.grid-cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #34495E;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.wall {
+    background-color: #FFFFFF !important;
+}
+
+.start {
+    background-color: #2ECC71 !important;
+}
+
+.end {
+    background-color: #E74C3C !important;
+}
+
+.visited {
+    background-color: #3498DB !important;
+}
+
+.path {
+    background-color: #F1C40F !important;
+}
+
+/* Button and select styles */
+button, select, option {
+    color: #FFFFFF !important;
+    background-color: #2980B9;
+    border: none;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover, select:hover {
+    background-color: #2471A3;
+}
+
+/* Labels */
+label {
+    color: #2C3E50;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/* Header styles */
+.header {
+    background-color: #3498DB;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.controls {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+} 

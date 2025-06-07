@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.grid {
+    margin: 20px;
+    padding: 20px;
+}
+
+.node {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #334155;
+    display: inline-block;
+    background-color: #1E293B;
+}
+
+.wall {
+    background-color: #334155;
+}
+
+.start {
+    background-color: #2DD4BF;
+}
+
+.end {
+    background-color: #F43F5E;
+}
+
+.visited {
+    background-color: rgba(125, 211, 252, 0.5);
+}
+
+.path {
+    background-color: #FCD34D;
+}
+
+button, select {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, select:hover {
+    background-color: #2563EB;
+}
+
+.header {
+    background-color: #0F172A;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+    color: #D1D5DB;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+select {
+    background-color: #1E293B;
+    color: #FFFFFF;
+    border: 1px solid #334155;
+}
+
+select:hover {
+    background-color: #2C3E50;
+}
+
+.github-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #1E293B;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #2C3E50;
+}
+
+button {
+    margin: 0.5em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    background-color: #34495E;
+    color: #FFFFFF;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #2C3E50;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+} 

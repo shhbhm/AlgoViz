@@ -1,0 +1,28 @@
+{
+  "name": "algorithm-visualizer",
+  "version": "1.0.0",
+  "description": "A web application for visualizing algorithms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shhbhm/AlgoTrace.git"
+  },
+  "keywords": [
+    "algorithms",
+    "visualization",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shhbhm/AlgoTrace/issues"
+  },
+  "homepage": "https://github.com/shhbhm/AlgoTrace#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
