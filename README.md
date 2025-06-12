@@ -1,7 +1,7 @@
 # AlgoTrace
 
 A modern algorithm visualization tool that helps you understand algorithms through interactive visualizations.
-
+Deployed here: https://algovizbyshubham.netlify.app/
 ## Features
 
 * **Sorting Visualizer**
